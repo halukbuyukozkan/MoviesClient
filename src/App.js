@@ -31,7 +31,7 @@ function App() {
 
       setMovie(singleMovie);
 
-      setReviews(singleMovie.reviews);
+      setReviews(singleMovie.reviewIds);
     } catch (error) {
       console.error(error);
     }
